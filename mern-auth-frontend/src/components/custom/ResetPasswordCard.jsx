@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import { Card, CardHeader, CardTitle, CardAction, CardDescription, CardFooter, CardContent } from '../ui/card'
 import { Input } from '../ui/input'
 import { Label } from '../ui/label'
@@ -7,7 +7,7 @@ import { toast } from 'sonner'
 import axios from 'axios'
 import { AppContext } from '../../context/AppContext'
 import { validateEmail } from '../../lib/utils'
-import { set } from 'mongoose'
+
 import { useNavigate } from 'react-router-dom'
 
 const ResetPasswordCard = () => {
