@@ -59,7 +59,7 @@ const HeroSection = () => {
 
                 Hey {greetUser()}  <img src={assets.hand_wave} className="w-8 aspect-square" alt="" />
             </h1>
-            <h2 className='text-3xl sm:text-5xl font-semibold mb-4'>Welcome to Mern Complete Auth</h2>
+            <h2 className='text-3xl sm:text-5xl font-semibold mb-4'>Welcome to  Complete Mern Auth</h2>
             <p className='mb-8 max-w-md'>Let's start with a quick app tour and we will have you up and running in no time!</p>
             <Button onClick={() => { navigate("/components") }} >Components <ArrowRight /></Button>
         </div>
