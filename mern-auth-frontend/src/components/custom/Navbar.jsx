@@ -75,12 +75,12 @@ const Navbar = () => {
     }
     return (
         <div className="w-full bg-background absolute top-0 px-6 py-3">
-            <div className="flex items-center justify-end w-full  mx-auto">
+            <div className="flex items-center justify-end   mx-auto">
 
                 {!user && <div className="flex  gap-2">
                     <Button onClick={() => { navigate("/login") }} variant="default">Login <ArrowRight color="white" /></Button>
                 </div>}
-                {user && <div className="w-8 h-8 rounded-full bg-primary text-black cursor-pointer flex justify-center items-center relative group">
+                {user && <div className="w-8 h-8 mr-20 rounded-full bg-primary text-black cursor-pointer flex justify-center items-center relative group">
                     {user.name[0].toUpperCase()}
                     <div className="group-hover:block hidden absolute top-0 right-0 z-10 text-black rounded w-full pt-10">
                         <ul className="list-none m-0 p-2 bg-gray-100 text-sm w-30">
