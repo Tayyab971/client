@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Homepage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
-import ResetPasswordPage from './pages/resetPassword'
+import ResetPasswordPage from './pages/ResetPassword'
 import EmailVerify from './pages/emailVerify'
 import ComponentsPage from './pages/ComponentsPage'
 import { Toaster } from './components/ui/sonner'
