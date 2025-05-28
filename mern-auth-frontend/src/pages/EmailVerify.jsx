@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../context/AppContext'
-import { InputOTP, InputOTPGroup, InputOTPSeparator, InputOTPSlot } from '../components/ui/input-otp'
+import { InputOTP, InputOTPGroup, InputOTPSlot } from '../components/ui/input-otp'
 import axios from "axios"
 import { toast } from 'sonner'
 import { Button } from '../components/ui/button'
