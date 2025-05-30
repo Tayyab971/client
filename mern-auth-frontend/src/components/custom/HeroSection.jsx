@@ -36,8 +36,6 @@ const HeroSection = () => {
             <div className='flex gap-4'>
                 <Button onClick={() => { navigate("/components") }} >Shadcn  <ArrowRight /></Button>
                 <Button onClick={() => { navigate("/ag-grid") }} >Ag Grid  <ArrowRight /></Button>
-
-
             </div>
 
         </div>
