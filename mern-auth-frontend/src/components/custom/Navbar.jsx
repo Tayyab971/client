@@ -78,7 +78,7 @@ const Navbar = () => {
             <div className="flex items-center justify-end   mx-auto">
 
                 {!user && <div className="flex  gap-2">
-                    <Button onClick={() => { navigate("/login") }} variant="default">Login <ArrowRight color="white" /></Button>
+                    <Button onClick={() => { navigate("/login") }} variant="default">Login <ArrowRight color="black" /></Button>
                 </div>}
                 {user && <div className="w-8 h-8 mr-20 rounded-full bg-primary text-black cursor-pointer flex justify-center items-center relative group">
                     {user.name[0].toUpperCase()}
