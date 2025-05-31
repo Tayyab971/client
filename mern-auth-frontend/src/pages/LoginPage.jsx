@@ -7,6 +7,7 @@ const LoginPage = () => {
     const navigate = useNavigate()
 
 
+
     return (
         <div className='flex item-center justify-center min-h-screen bg-cover bg-center bg-[url("/bg_img.png")]'>
 
