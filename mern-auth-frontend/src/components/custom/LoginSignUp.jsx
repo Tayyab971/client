@@ -25,7 +25,6 @@ import { useNavigate } from "react-router-dom";
 export function LoginSignup() {
     const navigate = useNavigate()
     const { backendURL, setIsLoggedIn, getUserData } = useContext(AppContext)
-
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -128,7 +127,7 @@ export function LoginSignup() {
         <div className="items-center flex justify-center">
             <Tabs defaultValue="signIn" className="w-[400px]">
                 <TabsList className="grid w-full grid-cols-2 ">
-                    <TabsTrigger  className="cursor-pointer" onClick={resetFields} value="signIn">Login</TabsTrigger>
+                    <TabsTrigger className="cursor-pointer" onClick={resetFields} value="signIn">Login</TabsTrigger>
                     <TabsTrigger className="cursor-pointer" onClick={resetFields} value="register">Register</TabsTrigger>
                 </TabsList>
                 <TabsContent value="signIn">
